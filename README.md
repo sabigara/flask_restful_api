@@ -6,7 +6,7 @@
 git clone https://github.com/sabigara/flask_restful_api.git
 cd flask_restful_api
 ```
-2. Create venv and pip-install required libaries.
+2. Create venv and pip-install required libraries.
 ```bash
 python3 -m venv venv
 source ./venv/bin/activate
