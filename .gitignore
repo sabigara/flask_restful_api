@@ -1,0 +1,4 @@
+migrations
+logs
+app.db
+venv
