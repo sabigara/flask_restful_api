@@ -3,3 +3,5 @@ logs
 app.db
 venv
 __pycache__
+.DS_Store
+.idea
