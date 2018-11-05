@@ -41,7 +41,7 @@ curl localhost:5000/users -F username=user1 -F email=user1@gmail.com -F password
 ```bash
 curl localhost:5000/clients -F client_name=user1 -F grant_type=password -F token_endpoint_auth_method=client_secret_basic
 
-# Usually, `/clients` endpoint should not be exposed to external network;
+# Usually, /clients endpoint should not be exposed to external network;
 # this is just a sample code.
 ```
 3. Issue token for `user1`
