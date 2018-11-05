@@ -2,10 +2,10 @@
 
 ## What for
 
-This repo is a sample flask app that provides API to just create users.
+This repo is a sample flask app that provides API for just creating users.
 
 
-## Instration
+## Installation
 1. Clone the repository.
 ```bash
 git clone https://github.com/sabigara/flask_restful_api.git
