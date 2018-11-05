@@ -64,6 +64,5 @@ def register_client():
 
 @bp.route('/token', methods=['POST'])
 def get_tokens():
-    res = authorization.create_token_response(request)
-    return res
+    return authorization.create_token_response(request)
 

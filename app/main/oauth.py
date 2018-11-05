@@ -19,10 +19,8 @@ class PasswordGrant(grants.ResourceOwnerPasswordCredentialsGrant):
 
 query_client = create_query_client_func(db.session, Client)
 save_token = create_save_token_func(db.session, Token)
-BearerTokenValidator = create_bearer_token_validator(db.session, Token)
 authorization = AuthorizationServer()
 require_oauth = ResourceProtector()
-require_oauth.register_token_validator(BearerTokenValidator())
 
 def config_oauth(app):
     authorization.init_app(app, query_client=query_client,
